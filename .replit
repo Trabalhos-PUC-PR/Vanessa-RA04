@@ -1,4 +1,4 @@
-run = "kotlinc -d main.jar main.kt && kotlin -classpath main.jar MainKt"
+run = "gradle run"
 
 entrypoint = "main.kt"
 
